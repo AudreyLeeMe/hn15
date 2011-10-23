@@ -22,4 +22,7 @@ group :test do
   gem 'turn', :require => false
 end
 
-gem 'heroku'
+gem 'heroku', :group => [:development, :test]
+
+gem 'rspec-rails', '>= 2.7.0', :group => [:development, :test]
+gem 'cucumber-rails', '>= 1.1.1', :group => [:development, :test]
