@@ -26,3 +26,9 @@ gem 'heroku', :group => [:development, :test]
 
 gem 'rspec-rails', '>= 2.7.0', :group => [:development, :test]
 gem 'cucumber-rails', '>= 1.1.1', :group => [:development, :test]
+
+gem 'haml', '>= 3.1.3'
+gem 'hpricot', '>= 0.8.4', :group => [:development, :test]
+
+gem 'slim', '>= 1.0.3'
+gem 'haml2slim', '>= 0.4.6', :group => [:development, :test]
