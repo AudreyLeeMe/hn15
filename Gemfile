@@ -32,3 +32,4 @@ gem 'hpricot', '>= 0.8.4', :group => [:development, :test]
 
 gem 'slim', '>= 1.0.3'
 gem 'haml2slim', '>= 0.4.6', :group => [:development, :test]
+gem 'devise', '>=1.4.9'
